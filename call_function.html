@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>call() pada javscript</title>
+</head>
+<body>
+	<script>
+		
+
+		//penggunaan function call,untuk memanggil metods/property dari object lain
+
+			const person1 = {
+				
+				fullName : function(){
+					return this.firstName + " " + this.lastName;
+				}
+			}
+
+			const person2 = {
+				firstName: "hadi",
+				lastName: "sucipto"
+			};
+
+			let full = person1.fullName.call(person2);
+			
+			document.getElementById('penjumlahan').innerHTML = full;
+	</script>
+</body>
+</html>
