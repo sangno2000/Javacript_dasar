@@ -1,2 +1,2 @@
 # Javacript_dasar
-Ini adalah repository lokal dan bersifat pribadi untuk seluruh materi pembelajaran yang diambil dari beberapa sumber  yang berasa di internet,
+Ini adalah repository lokal untuk kebutuhan pribadi.seluruh materi pembelajaran saya ambil dari beberapa situs yang bersumebr dari media internet
